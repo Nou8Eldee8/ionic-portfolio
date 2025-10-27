@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": {
+      "part1": "Precision. Quality.",
+      "part2": "Finishing."
+    },
+    "subtitle": "Bringing modern craftsmanship and elegant design to every project — from luxury interiors to full construction.",
+    "cta": "Get in Touch",
+    "projects": {
+      "project1": "Luxury Villa - King Marriot",
+      "project2": "Modern Apartment - Alex West",
+      "project3": "Elvan Factory Lab",
+      "project4": "Radison Blu Hotel"
+    }
+  },
+
+  "services": {
+    "title": "Our",
+    "titleAccent": "Services",
+    "intro": "We combine craftsmanship, innovation, and attention to detail — offering full-spectrum services for residential and commercial spaces.",
+
+    "items": {
+      "custom": {
+        "title": "Custom Construction",
+        "description": "High-quality builds tailored to your design and functional needs."
+      },
+      "planning": {
+        "title": "Architectural Planning",
+        "description": "From concept to detailed plans that bring your vision to life."
+      },
+      "interior": {
+        "title": "Interior Design",
+        "description": "Modern aesthetics that balance style, comfort, and precision."
+      },
+      "renovation": {
+        "title": "Renovation Projects",
+        "description": "Transforming spaces with a refined touch and professional finish."
+      },
+      "sourcing": {
+        "title": "Material Sourcing",
+        "description": "Only the finest materials — hand-selected for durability and beauty."
+      },
+      "turnkey": {
+        "title": "Turnkey Solutions",
+        "description": "Complete project delivery — from idea to finished home."
+      }
+    }
+  }
+}
