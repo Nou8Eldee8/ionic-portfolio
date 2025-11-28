@@ -6,12 +6,8 @@
     "about": "About",
     "contact": "Contact"
   },
-
   "hero": {
-    "title": {
-      "part1": "Precision. Quality.",
-      "part2": "Finishing."
-    },
+    "title": "Precision. Quality. Finishing.",
     "subtitle": "Bringing modern craftsmanship and elegant design to every project — from luxury interiors to full construction.",
     "cta": "Get in Touch",
     "projects": {
@@ -21,12 +17,10 @@
       "project4": "Radison Blu Hotel"
     }
   },
-
   "services": {
-    "title": "Our",
+    "title": "Our Services",
     "titleAccent": "Services",
     "intro": "We combine craftsmanship, innovation, and attention to detail — offering full-spectrum services for residential and commercial spaces.",
-
     "items": {
       "custom": {
         "title": "Custom Construction",
