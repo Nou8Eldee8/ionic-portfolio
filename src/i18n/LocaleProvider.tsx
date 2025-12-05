@@ -9,18 +9,12 @@ const DEFAULT = "en";
 
 const LocaleContext = createContext({
   locale: DEFAULT,
-  setLocale: (_l) => {},
+  setLocale: (_l) => { },
   t: (k) => k,
 });
 
 export function LocaleProvider({ children }) {
-  const [locale, setLocaleState] = useState(() => {
-    try {
-      return localStorage.getItem("ionic_locale") || DEFAULT;
-    } catch {
-      return DEFAULT;
-    }
-  });
+  const [locale, setLocaleState] = useState(DEFAULT);
 
   // ✅ Nested key resolver (supports hero.projects.project1)
   const t = (key) => {
@@ -33,7 +27,7 @@ export function LocaleProvider({ children }) {
     setLocaleState(l);
     try {
       localStorage.setItem("ionic_locale", l);
-    } catch {}
+    } catch { }
     document.documentElement.lang = l === "ar" ? "ar" : "en";
     document.documentElement.dir = l === "ar" ? "rtl" : "ltr";
     if (l === "ar") {
@@ -46,7 +40,14 @@ export function LocaleProvider({ children }) {
   };
 
   useEffect(() => {
-    setLocale(locale);
+    let initialLocale = DEFAULT;
+    try {
+      const saved = localStorage.getItem("ionic_locale");
+      if (saved && LOCALES[saved]) {
+        initialLocale = saved;
+      }
+    } catch { }
+    setLocale(initialLocale);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

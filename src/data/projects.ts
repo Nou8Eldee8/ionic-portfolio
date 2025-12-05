@@ -2,10 +2,10 @@ import { Project } from "../types";
 
 export const projectsEn: Project[] = [
     {
-        slug: "luxury-villa",
-        title: "Luxury Villa",
+        slug: "Alex West",
+        title: "Alex West - Full Construction Jobs",
         description: "A full-scale luxury villa project combining modern architecture and elegant finishing.",
-        image: "/images/project1.jpg",
+        image: "/images/alexwest.jpg",
         videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
         phases: [
             {
@@ -26,31 +26,31 @@ export const projectsEn: Project[] = [
         ],
     },
     {
-        slug: "modern-apartment",
-        title: "Modern Apartment",
+        slug: "radisonblu",
+        title: "Radison Blu Hotel - Project",
         description: "A sleek modern apartment interior inspired by contemporary European aesthetics.",
-        image: "/images/project2.jpg",
+        image: "/images/radisonblu.jpg",
     },
     {
-        slug: "office-space",
-        title: "Office Space",
+        slug: "Elvan-Factory",
+        title: "Elvan Factory",
         description: "An office space designed for productivity, aesthetics, and brand identity.",
-        image: "/images/project3.jpg",
+        image: "/images/elvan.jpg",
     },
     {
-        slug: "retail-store",
+        slug: "denis-textile",
         title: "Retail Store",
-        description: "A modern retail store crafted for an immersive customer experience.",
-        image: "/images/project4.jpg",
+        description: "Project is still under construction.",
+        image: "/images/denis.jpg",
     },
 ];
 
 export const projectsAr: Project[] = [
     {
-        slug: "فيلا-فاخرة",
-        title: "فيلا فاخرة",
+        slug: "اليكس ويست",
+        title: "مشروع اليكس ويست",
         description: "مشروع يجمع بين التصميم المعماري العصري والتشطيب الفاخر، بمزيج من الأناقة والراحة.",
-        image: "/images/project1.jpg",
+        image: "/images/alexwest.jpg",
         videoUrl: "https://www.youtube.com/embed/ScMzIvxBSi4",
         phases: [
             {
@@ -71,22 +71,22 @@ export const projectsAr: Project[] = [
         ],
     },
     {
-        slug: "شقة-عصرية",
-        title: "شقة عصرية",
-        description: "تصميم داخلي حديث مستوحى من الأسلوب الأوروبي، يعكس التوازن بين الجمال والوظيفة.",
-        image: "/images/project2.jpg",
+        slug: "radisonblu",
+        title: "مشروع فندق رادسيون بلو",
+        description: " تصميم داخلي حديث مستوحى من الأسلوب الأوروبي، يعكس التوازن بين الجمال والوظيفة. تم العمل على حمام السباحة وقاعة فاروس وقاعة المؤتمرات - حمامات ومطابخ مصر للطيران",
+        image: "/images/radisonblu.jpg",
     },
     {
-        slug: "مكتب-إداري",
-        title: "مكتب إداري",
+        slug: "Elvan-Factory",
+        title: "مصنع الوان ",
         description: "تصميم وتشطيب مكتب إداري يجمع بين الهوية البصرية والراحة العملية لفريق العمل.",
-        image: "/images/project3.jpg",
+        image: "/images/elvan.jpg",
     },
     {
         slug: "متجر-تجاري",
         title: "متجر تجاري",
-        description: "مساحة تجارية بتصميم حديث وتجربة عملاء فريدة تبرز هوية العلامة التجارية.",
-        image: "/images/project4.jpg",
+        description: "لا يزال العمل على انشاءات المصنع بالمنطقة الحرة - تابعوا التطورات",
+        image: "/images/denis.jpg",
     },
 ];
 
