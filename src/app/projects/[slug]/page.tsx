@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import ProjectContent from "./ProjectContent";
 import { getProjectBySlug } from "../../../data/projects";
+import Footer from "../../../components/footer";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -29,7 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+
 export default async function Page({ params }: Props) {
   const { slug } = await params;
-  return <ProjectContent slug={slug} />;
+  return (
+    <>
+      <ProjectContent slug={slug} />
+      <Footer />
+    </>
+  );
 }
